@@ -48,7 +48,7 @@ new_blk = int(input("Input predicting operator block stat: "))
 new_rdp = int(input("Input predicting operator redeploy time stat: "))  
 new_spe = float(input("Input predicting operator attack speed: ")) 
 
-# Recommend using on colab#
+# Recommend using on colab
 new_stats = [new_hp, new_atk, new_defense, new_cost, new_res, new_blk, new_rdp, new_spe]
 predicted_class = clf.predict([new_stats])
 print("Predicted Class:", predicted_class)
